@@ -1,0 +1,58 @@
+<div class="cen-jus">
+  <br>
+  <h3>Create a Profile for your Business</h3>
+
+  <br>
+  <form ng-submit="vm.createVenue()">
+    <div class="row">
+      <label for="inputName1" class="left-jus col-md-offset-3">Business Name</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputName" class="form-control" placeholder="Pete's Pizza?  Gnarly Grill?" ng-model="vm.venueData.name" required />
+      </div>
+      <div class="row">
+      <label for="inputAddress" class="left-jus col-md-offset-3">Business Type</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputBusinessType" class="form-control" placeholder="Bar? Grill? Club? Promoter?" ng-model="vm.venueData.streetAddress" required />
+    </div>
+    </div>
+    <div class="row">
+      <label for="inputAddress" class="left-jus col-md-offset-3">Address</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputAddress" class="form-control" placeholder="Street Address..." ng-model="vm.venueData.streetAddress" required />
+    </div>
+    <div class="row">
+      <label for="inputAddress" class="left-jus col-md-offset-3">City</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputCity" class="form-control" placeholder="City" ng-model="vm.venueData.city" required />
+    </div>
+    <div class="row">
+      <label for="inputAddress" class="left-jus col-md-offset-3">State</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputState" class="form-control" placeholder="State" ng-model="vm.venueData.state" required />
+    </div>
+    <div class="row">
+      <label for="inputAddress" class="left-jus col-md-offset-3">Zip Code</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputZip" class="form-control" placeholder="Zip Code" ng-model="vm.venueData.zipCode" required />
+    </div>
+    <div class="row">
+      <label for="inputPhone1" class="left-jus col-md-offset-3">Person to Contact</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputContactPerson" class="form-control" placeholder="Rich the Owner?" ng-model="vm.venueData.personContact" required />
+      </div>
+    </div>
+    <div class="row">
+      <label for="inputAddress" class="left-jus col-md-offset-3">E-mail</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="text" id="inputEmail" class="form-control" placeholder="you@you.com" ng-model="vm.venueData.email" required />
+    </div>
+    <div class="row">
+      <label for="inputPword1" class="left-jus col-md-offset-3">Password</label>
+      <div class="form-group col-md-6 col-md-offset-3">
+        <input type="password" id="inputPassword" class="form-control" placeholder="VirtIs@wesome" ng-model="vm.venueData.password" required />
+      </div>
+    </div>
+    <button class="btn btn-success submit-login-button" type="submit">Create</button>
+  </form>
+
+</div>

@@ -1,0 +1,12 @@
+.intro-header {
+  background-image: url("images/virt_collage");
+  background-size: cover;
+}
+
+span {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
