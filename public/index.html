@@ -28,7 +28,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -42,20 +41,20 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">So much nearby</a>
+                <a class="navbar-brand" href="index.html">So much nearby.</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class="white-box" href="about.html"><div class="boxed-link">Home</div></a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="white-box" href="about.html"><div class="boxed-link">About</div></a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a class="white-box" href="about.html"><div class="boxed-link">Contact</div></a>
                     </li>
                 </ul>
             </div>
@@ -74,38 +73,16 @@
                         <hr class="small">
                         <h1>| V i R T |</h1>
                         <hr class="small">
-                        <span class="subheading">local biz. local entertainment.</span>
+                        <span class="subheading">local biz. local buzz.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container" ng-controller="MainController as vm">
-        <div class="row">
-          <div class="col-md-4">
-              <h3><em>The Establishments</em></h3>
-              <hr>
-                Small venues, clubs (heck, even restaurants!) can increase their attendance and crowds by creating their free <em>ViRT</em> accounts, posting a quick blurb about their unique event and it will appear in the search results for people nearby looking to check something cool out.
-                <p>Don't have an account yet?  <a class="btn btn-default" href="#" role="button">Sign Up!</a></p>
-          </div>
-          <div class="col-md-4">
-          <h3><em>What is ViRT?</em></h3>
-          <hr>
-            Virt is an app that lets you find something to do when you're in a new neighborhood or you aren't sure what's going on at this moment.  You can search according to your preferences in taste, distance, and whether or not you're into paying a small cover or just want something free to see.
-            <p>Check it out and stayed tuned for more updates.</p>
-          </div>
-          <div class="col-md-4">
-              <h3><em>The Users</em></h3>
-              <hr>
-                Ever thought of wanting to see a band or go dancing but not sure what's happening or...where?  You bet we have.<p>Use your <em>Facebook</em> to login and start searching for performances and events so you don't have to spend an hour searching online.</p>
-                <p><a class="btn btn-default" ui-sref="register" role="button">Login!</a></p>
-          </div>
-</div>
-
-        </div>
-    </div>
+    <main class="content" ui-view>
+      <!-- PAGE TEMPLATES INSERT HERE -->
+    </main>
 
     <hr>
 
@@ -152,14 +129,20 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/clean-blog.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+
     <script src="/js/main.js"></script>
+    <script src="/app.module.js"></script>
+    <script src="/controllers/main_controller.js"></script>
+    <script src="/controllers/user_controller.js"></script>
+    <script src="/controllers/venue_controller.js"></script>
+    <script src="/controllers/venlogin_controller.js"></script>
+    <script src="/controllers/virt_controller.js"></script>
+    <script src="/app.routes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/satellizer/0.14.1/satellizer.min.js"></script>
 
 </body>
 

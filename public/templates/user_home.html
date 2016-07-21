@@ -1,0 +1,25 @@
+<div class="container cen-jus" ng-show="vm.isLoggedIn()">
+  <% if (user) { %>
+      <h3>Welcome, {{vm.currentUser.name}}</h3>
+      <a href="/logout">Logout</a>
+      <% } else { %>
+    <a href="/auth/facebook">Login</a>
+    <% } %>
+
+
+  <table id="local_virts" class="table table-striped" //* ng-something goes here *//>
+    <thead>
+      <tr>
+        <th><h2 class="jumbotron text-center">Local Events</h2></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="home in vm.local_virts">
+        <td>{{virt.venue}}</td>
+        <td>{{virt.admission}}</td>
+        <td>{{virt.text}}</td>
+        <td>{{virt.location}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

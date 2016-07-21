@@ -1,12 +1,28 @@
 .intro-header {
   background-image: url("images/virt_collage");
-  background-size: cover;
+  background-size: cover no repeat;
 }
 
 span {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
+a.white-box:link {color: white;}
+a.white-box:hover {color: white;}
+a.white-box:active {color: white;}
+a.white-box:visited {color: white;}
+
+.boxed-link {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 3px;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr.style-one {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
