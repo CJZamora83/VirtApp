@@ -21,8 +21,8 @@ Ever thought of wanting to see a band or go dancing but not sure what's happenin
 [<img src="public/images/virt_screenshot2.png">](public/images/virt_screenshot2.png)  
 
 
-###Start Using
- [Virtigo](https://warm-island-81233.herokuapp.com/)
+###Start Virtilizin'
+ [Virtin'](https://fierce-thicket-89760.herokuapp.com/)
 
 ###TRELLO
 My wireframing notes can be observed on my Trello project page at:
