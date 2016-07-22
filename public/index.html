@@ -30,7 +30,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-controller="MainController as main">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -55,6 +55,9 @@
                     </li>
                     <li>
                         <a class="white-box" href="about.html"><div class="boxed-link">Contact</div></a>
+                    </li>
+                    <li>
+                        <a class="white-box" href="" ng-click="main.logout()" ng-show="main.isLoggedIn()"><div class="boxed-link">Log Out</div></a>
                     </li>
                 </ul>
             </div>
@@ -81,7 +84,7 @@
     </header>
 
     <main class="content" ui-view>
-      <!-- PAGE TEMPLATES INSERT HERE -->
+
     </main>
 
     <hr>
@@ -133,16 +136,17 @@
     <!-- Theme JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/satellizer/0.14.1/satellizer.min.js"></script>
     <script src="/js/main.js"></script>
     <script src="/app.module.js"></script>
+    <script src="/services/user.dataservice.js"></script>
     <script src="/controllers/main_controller.js"></script>
     <script src="/controllers/user_controller.js"></script>
     <script src="/controllers/venue_controller.js"></script>
     <script src="/controllers/venlogin_controller.js"></script>
+    <script src="/controllers/login_controller.js"></script>
     <script src="/controllers/virt_controller.js"></script>
     <script src="/app.routes.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/satellizer/0.14.1/satellizer.min.js"></script>
 
 </body>
 

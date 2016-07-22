@@ -34,7 +34,7 @@
       .state("userLogin", {
         url: "/user_login",
         templateUrl: "/templates/user_login.html",
-        controller: "UsersController",
+        controller: "UserLoginController",
         controllerAs: "vm"
       })
       .state("user_home", {

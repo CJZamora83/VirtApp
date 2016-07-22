@@ -1,5 +1,4 @@
 .intro-header {
-  background-image: url("images/virt_collage");
   background-size: cover no repeat;
 }
 
@@ -25,4 +24,8 @@ hr.style-one {
     height: 2px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.col-md-6 {
+  align-content: center;
 }

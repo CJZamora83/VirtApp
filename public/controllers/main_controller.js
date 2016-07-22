@@ -5,9 +5,20 @@
       .module("VirtApp")
       .controller("MainController", MainController);
 
-MainController.$inject = [];
+  MainController.$inject = ['userDataService', '$auth', '$state'];
 
-function MainController() {
-  var vm = this;
-}
+  function MainController(userDataService, $auth, $state) {
+    var vm = this;
+
+    vm.userDS = userDataService;
+
+    vm.isLoggedIn = function() {
+      return $auth.isAuthenticated();
+    };
+
+    vm.logout = function() {
+      $auth.logout();
+      $state.go('homePage');
+    };
+  }
 })();

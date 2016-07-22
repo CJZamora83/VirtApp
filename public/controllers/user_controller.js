@@ -5,24 +5,13 @@
   .module("VirtApp")
   .controller("UsersController", UsersController);
 
-UsersController.$inject = ["$state"];
+  UsersController.$inject = ["$state", 'userDataService'];
 
-function UsersController($state) {
-  var vm = this;
+  function UsersController($state, userDataService) {
+    var vm = this;
 
-  vm.user = login;
-  vm.isLoggedIn = authService.isLoggedIn;
-  vm.currentUser = userDataService;
+    vm.userDS = userDataService;
 
-  //form data for login
-  vm.loginData;
-
-  function userLogin() {
-    authService.login(vm.loginData.email, vm.loginData.password)
-      .then(function(res) {
-        $log.log(res.data);
-        $state.go();
-      });
-    };
   }
+
 })();
