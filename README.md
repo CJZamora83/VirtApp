@@ -27,11 +27,11 @@ My wireframing notes can be observed on my Trello project page at:
  
 ###Technologies:
 >- HTML5/CSS3  
->- Bootstrap  
+>- Bootstrap (template)
 >- MEAN Stack (MongoDB, Express middlware, AngularJS, NodeJS)
 >- Google+ OAuth
 >- Satellizer (to enable Google+ OAuth)
->- Matlab (database)
+>- MLab (database)
 >- Heroku (to deploy and host app to the real world)  
 
 ###Contributors
