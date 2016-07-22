@@ -17,7 +17,7 @@ Ever thought of wanting to see a band or go dancing but not sure what's happenin
 ####Landing Page:  
 [<img src="public/images/virt_screenshot1.png">](public/images/virt_screenshot1.png)  
 
-####When a User of the Massses first logs in:  
+####When a User of the Masses first logs in:  
 [<img src="public/images/virt_screenshot2.png">](public/images/virt_screenshot2.png)  
 
 
