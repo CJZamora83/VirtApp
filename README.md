@@ -15,9 +15,9 @@ Ever thought of wanting to see a band or go dancing but not sure what's happenin
 
 
 This is what it looks like (for now):
-[<img src="/images/virt_screenshot1.jpg">](/images/virt_screenshot1.jpg)
+[<img src="/images/virt_screenshot1.png">](/images/virt_screenshot1.png)
 
-[<img src="/images/virt_screenshot2.jpg">](/images/virt_screenshot2.jpg)
+[<img src="/images/virt_screenshot2.png">](/images/virt_screenshot2.png)
 
 
 ###Start Using
