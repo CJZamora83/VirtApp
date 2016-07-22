@@ -14,10 +14,11 @@ Small venues, clubs (heck, even restaurants!) can increase their attendance and 
 Ever thought of wanting to see a band or go dancing but not sure what's happening or...where? You bet we have.  The masses can use Google to login and start searching for performances and events so you don't have to spend an hour searching online.
 
 
-This is what it looks like (for now):
-[<img src="public/images/virt_screenshot1.png">](public/images/virt_screenshot1.png)
+####Landing Page:  
+[<img src="public/images/virt_screenshot1.png">](public/images/virt_screenshot1.png)  
 
-[<img src="public/images/virt_screenshot2.png">](public/images/virt_screenshot2.png)
+####When a User of the Massses first logs in:  
+[<img src="public/images/virt_screenshot2.png">](public/images/virt_screenshot2.png)  
 
 
 ###Start Using
