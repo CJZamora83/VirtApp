@@ -15,7 +15,10 @@ Ever thought of wanting to see a band or go dancing but not sure what's happenin
 
 
 This is what it looks like (for now):
-[<img src="app/assets/images/rc_screenshot.png">](app/assets/images/rc_screenshot.png)
+[<img src="/images/virt_screenshot1.jpg">](/images/virt_screenshot1.jpg)
+
+[<img src="/images/virt_screenshot2.jpg">](/images/virt_screenshot2.jpg)
+
 
 ###Start Using
  [Virtigo](https://warm-island-81233.herokuapp.com/)
@@ -23,7 +26,7 @@ This is what it looks like (for now):
 ###TRELLO
 My wireframing notes can be observed on my Trello project page at:
 
- [Virt](https://trello.com/b/dOdDEb3N/rocket-clerk)
+ [Virt](https://trello.com/b/UVUMGjLA/virt)
  
 ###Technologies:
 >- HTML5/CSS3  
@@ -39,7 +42,7 @@ The following individuals assisted me immensely with the development of this gam
 >[Ezra Raez](https://github.com/EARnagram)        
 >[Jim Clark](https://github.com/jim-clark)  
 >[East Coast Phil](https://github.com/philco)  
->- Almost everyone in WDI-DTLA10
+>Almost everyone in WDI-DTLA10
 >
 >###Future Updates
 >This app is still in development.  Therefore, some features that I would like to add are:  
